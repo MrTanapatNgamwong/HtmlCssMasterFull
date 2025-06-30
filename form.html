@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <h1>This is Form page.</h1>
+
+    <!-- form element -->
+    <form action="">
+        <!-- fieldset element -->
+        <fieldset>
+            <!-- legend element -->
+            <legend>Personal info</legend>
+            <label for="first name">First Name:</label><br>
+            <input type="text" name="firstsname" placeholder="Please enter your firstname"><br>
+            <label for="last name">Last Name:</label><br>
+            <input type="text" name="lastname" placeholder="Please enter your lastname"><br>
+        </fieldset>
+        
+        <!-- select element -->
+        <select name="car" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda" selected>Honda</option>
+            <option value="mazda">Mazda</option>
+        </select><br>
+
+        <!-- datalist element (use together with input element) -->
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="volvo">
+            <option value="toyota">
+            <option value="honda">
+            <option value="mazda">
+        </datalist>
+
+        <!-- textarea element -->
+        <textarea name="" id=""></textarea><br>
+
+        <!-- button element -->
+        <button type="submit">Submit</button>
+
+        <!-- input other type  -->
+        <input type="button" value="button"><br>
+        <h4>Type Checkbox</h4>
+        <input type="checkbox"><br>
+        <h4>Type Color</h4>
+        <input type="color"><br>
+        <h4>Type Date</h4>
+        <input type="date"><br>
+        <h4>Type Datetime-Local</h4>
+        <input type="datetime-local"><br>
+        <h4>Type Email</h4>
+        <input type="email"><br>
+        <h4>Type File</h4>
+        <input type="file"><br>
+        <h4>Type Hidden</h4>
+        <input type="hidden"><br>
+        <h4>Type Image</h4>
+        <input type="image"><br>
+        <h4>Type Month</h4>
+        <input type="month"><br>
+        <h4>Type Number</h4>
+        <input type="number"><br>
+        <h4>Type Password</h4>
+        <input type="password"><br>
+        <h4>Type Radio</h4>
+        <input type="radio"><br>
+        <h4>Type Range</h4>
+        <input type="range"><br>
+        <h4>Type Reset</h4>
+        <input type="reset"><br>
+        <h4>Type Search</h4>
+        <input type="search"><br>
+        <h4>Type Submit</h4>
+        <input type="submit"><br>
+        <h4>Type Tel</h4>
+        <input type="tel"><br>
+        <h4>Type Text</h4>
+        <input type="text"><br>
+        <h4>Type Time</h4>
+        <input type="time"><br>
+        <h4>Type Url</h4>
+        <input type="url"><br>
+        <h4>Type Week</h4>
+        <input type="week"><br>
+    </form>
+</body>
+</html>
