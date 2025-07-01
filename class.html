@@ -6,6 +6,7 @@
     <title>Class page</title>
 
     <style>
+        /* Class */
         .container{
             width: 960px;
             margin: 0 auto;
@@ -18,11 +19,19 @@
             background-color: aquamarine;
             margin: 10px;
         }
+
+        /* Id */
+        #myBox{
+            width: 100px;
+            height: 100px;
+            background-color: chocolate;
+        }
     </style>
 </head>
 <body>
     <h1>Tihs is class page</h1>
 
+    <!-- html class สามารถใช้ซ้ำได้ -->
     <div class="container">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maiores deserunt inventore odit quasi architecto alias quia sed nulla odio qui sunt harum eligendi quibusdam sequi necessitatibus eius, dolor maxime?</p>
 
@@ -34,5 +43,18 @@
 
         </div>
     </div>
+
+    <!-- html id ใช้แค่ตัวเดียว  -->
+    <div id="myBox">
+
+    </div>
+
+    <script>
+        let myBox = document.getElementById("myBox");
+
+        myBox.addEventListener("click" , function(){
+            alert("Hello World");
+        })
+    </script>
 </body>
 </html>
