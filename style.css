@@ -1,0 +1,112 @@
+body{
+    background-color: burlywood;
+    background-image: url("image/img2.jpg");
+    /* ห้ามทำซ้ำ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* รูปภาพหยุดกับทื่ */
+    background-attachment: fixed;
+    /* คำสั่งลัด เรียงลำกับตามนี้ 
+        background-color: ;
+        background-image: ;
+        background-repeat: ;
+        background-attachment: ;
+        background-position: ;
+    */
+    /* background: url("image/img2.jpg") no-repeat center; */
+}
+
+/* ต้องใช้ width  กับ height กำหนดความกว้างสูง */
+.box2{
+    width: 300px;
+    height: 140px;
+    background-image: url("image/img1.jpg");
+    background-size: cover;
+}
+
+/* Element Selector */
+p {
+    color: #ff0000 ;
+    text-align: center;
+}
+
+/* Class Selector */
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+/* Id Selector */
+#myBox{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    margin: 10px;
+}
+
+.dotted{
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 10px;
+    /* ทำให้โค้งมน */
+    border-radius: 5px;
+}
+
+.double{
+    border-style: double;
+}
+
+.groove{
+    border-style: groove;
+}
+
+.ridge{
+    border-style: ridge;
+}
+
+.inset{
+    border-style: inset;
+}
+
+.outset{
+    border-style: outset;
+}
+
+.none{
+    border-style: none;
+}
+
+.hidden{
+    border-style: hidden;
+}
+
+.mix{
+    /* top right bottom left */
+    border-style: dotted dashed solid double;
+
+    /*
+        1. border-width;
+        2. border-style;
+        3. border-color;
+     */
+
+     /*
+        border-top-style: ;
+        border-right-style: ;
+        border-bottom-style: ;
+        border-left-style: ;  
+     */
+}
+
